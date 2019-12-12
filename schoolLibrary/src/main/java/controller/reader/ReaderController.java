@@ -442,12 +442,16 @@ public class ReaderController implements Initializable {
         String que = "SELECT * FROM book WHERE BCnt > 0 ORDER BY BCnt DESC";
         List<Map<String, Object>> popularBooks = template.queryForList(que);
         System.out.println(popularBooks.size());
+        int totBorrowCnt = 0;
+        for(int i = 0, len = popularBooks.size(); i < len; ++i) {
+            totBorrowCnt += Integer.parseInt(popularBooks.get(i).get("BCnt").toString());
+        }
         for(int i = 0, len = popularBooks.size(); i < len; ++i) {
             //最多显示20本热门书籍
             if(i >= 20) break;
             String bpName = (String) popularBooks.get(i).get("BName");
             int bpCnt = Integer.parseInt(popularBooks.get(i).get("BCnt").toString());
-            dataChart.add(new PieChart.Data(bpName + "(" + bpCnt + ")", bpCnt));
+            dataChart.add(new PieChart.Data(bpName + "(" + Math.round(1.0 * bpCnt / totBorrowCnt * 100) + "%)", bpCnt));
         }
         return dataChart;
     }
