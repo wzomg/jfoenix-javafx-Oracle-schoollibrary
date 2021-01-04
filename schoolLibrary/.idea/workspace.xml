@@ -70,6 +70,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -101,7 +104,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_oracle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.13632901" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -141,6 +144,12 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -152,12 +161,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="controller.Main" />
@@ -289,5 +292,27 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1865" height="394" key="GridCell.Tab.0.bottom" timestamp="1609777951089">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="394" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609777951089" />
+    <state width="1865" height="394" key="GridCell.Tab.0.center" timestamp="1609777951089">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="394" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609777951089" />
+    <state width="1865" height="394" key="GridCell.Tab.0.left" timestamp="1609777951089">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="394" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609777951089" />
+    <state width="1865" height="394" key="GridCell.Tab.0.right" timestamp="1609777951089">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="394" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609777951089" />
+    <state x="504" y="188" width="912" height="674" key="find.popup" timestamp="1609777972223">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="504" y="188" width="912" height="674" key="find.popup/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609777972223" />
   </component>
 </project>
